@@ -38,6 +38,7 @@ html {
 }
 
 body {
+  height: 100%;
   margin: 0;
 }
 
@@ -103,4 +104,15 @@ a:active {
 .logo {
   width: 12em;
   border-bottom-right-radius: 25%;
+}
+
+.footer {
+  font-family: 'Source Code Pro', sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
 }

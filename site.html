@@ -5,57 +5,75 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Nordic Development</title>
+        <link rel="icon" type="image/x-icon" href="logo.png">
     </head>
-    <body scroll="no">
-        <div class="sidenav">
-            <img src="logo.png" class="logo">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#services">services</a>
-            <a href="#contact">contact</a>
+    <body onload="startTime()">
+        <div class="content">
+            <div class="content-inside">
+                <div class="sidenav">
+                    <img src="logo.png" class="logo">
+                    <a href="#home">home</a>
+                    <a href="#about">about</a>
+                    <a href="#services">services</a>
+                    <a href="#contact">contact</a>
+                </div>
+
+                <div class="welcome">
+                    <h1>Welcome</h1>
+                </div>
+
+                <section>
+                    <div class="home" id="home" style="text-align: center;">
+                        <h1>&lt;home/&gt;</h1>
+
+                        <i class="fa fa-solid fa-laptop fa-4x" style="text-align: center;"></i>
+                        <br><br><br>
+                        <p>Navigate the page by clicking on the sidebar.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="about" id="about" style="text-align: center;">
+                        <h1>&lt;about/&gt;</h1> 
+
+                        <i class="fa fa-regular fa-id-card fa-4x" style="text-align: center;"></i>
+                        <br><br><br>
+                        <p>A team of two young developers from Finland.</p>
+                        <br>
+                        <p></p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="services" id="services" style="text-align: center;">
+                        <h1>&lt;services/&gt;</h1>
+
+                        <i class="fa fa-regular fa-terminal fa-4x" style="text-align: center;"></i>
+                        <br><br><br>
+                        <p>We offer various services ranging from web development to other opportunities in different areas of expertise.</p>
+                        <br>
+                        <p>View more information or contact via directly by purchasing a gig at <a href="https://www.fiverr.com/nordicdev" target="_blank">Fiverr</a>.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="contact" id="contact" style="text-align: center;">
+                        <h1>&lt;contact/&gt;</h1> 
+
+                        <a href = "mailto: meavaimet@gmail.com" target="_blank"><i class="fa fa-regular fa-envelope fa-4x" style="text-align: center;"></i></a>
+                        <br><br><br>
+                        <p>Contact us via e-mail by clicking on the envelope.</p>
+                    </div>
+                </section>
+            </div>
         </div>
 
-        <div class="welcome">
-            <h1>Welcome</h1>
-        </div>
-
-        <section>
-            <div class="home" id="home" style="text-align: center;">
-                <h1>&lt;home/&gt;</h1>
-
-                <i class="fa fa-solid fa-laptop fa-4x" style="text-align: center;"></i>
-                <p>Navigate the page by clicking on the sidebar.</p>
-            </div>
-        </section>
-
-        <section>
-            <div class="about" id="about" style="text-align: center;">
-                <h1>&lt;about/&gt;</h1> 
-
-                <i class="fa fa-regular fa-id-card fa-4x" style="text-align: center;"></i>
-                <p>A team of two young developers from Finland.</p>
-                <br>
-                <p></p>
-            </div>
-        </section>
-
-        <section>
-            <div class="services" id="services" style="text-align: center;">
-                <h1>&lt;services/&gt;</h1>
-
-                <i class="fa fa-regular fa-terminal fa-4x" style="text-align: center;"></i>
-                <p>We offer various services.</p>
-            </div>
-        </section>
-
-        <section>
-            <div class="contact" id="contact" style="text-align: center;">
-                <h1>&lt;contact/&gt;</h1> 
-
-                <a href = "mailto: meavaimet@gmail.com" target="_blank"><i class="fa fa-regular fa-envelope fa-4x" style="text-align: center;"></i></a>
-                <p>Contact us via e-mail by clicking on the envelope.</p>
-            </div>
-        </section>
+        <footer class="footer">
+            <p id="txt"></p>
+        </footer>
+        
+        <script src="script.js"></script>
     </body>
     
 </html>
