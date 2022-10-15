@@ -1,2 +1,4 @@
-# mikkuuz.github.io
-website
+# nordicdev.studio
+
+Nordic Development homepage
+open source :)
