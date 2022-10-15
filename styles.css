@@ -94,7 +94,7 @@ a:visited {
 }
 
 a:hover {
-  color: #818181;
+  color: #143C72;
 }
 
 a:active {
@@ -113,6 +113,6 @@ a:active {
   bottom: 0;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  color: #143C72;
   text-align: center;
 }
