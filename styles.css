@@ -51,10 +51,6 @@ h1 {
     padding-bottom: 1em;
 }
 
-.welcome h1 {
-  color: black;
-}
-
 br {
   line-height: 100px;
 }
@@ -65,7 +61,7 @@ p {
   font-size: 25px;
 }
 
-.welcome, .home, .about, .services, .contact {
+.home, .about, .services, .contact {
   min-height:100vh;
   max-height:1000px;
   font-size: 20px;
@@ -79,7 +75,6 @@ section {
   background-color: #ffffff;
 }
 
-.welcome, .sel:nth-child(1) { background:rgb(255, 255, 255); }
 .home, .sel:nth-child(2) { background:rgb(255, 255, 255) ; }
 .about, .sel:nth-child(3) { background:rgb(255, 255, 255); }
 .services, .sel:nth-child(4) { background:rgb(255, 255, 255); }
