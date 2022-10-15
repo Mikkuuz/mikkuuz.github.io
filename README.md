@@ -1,4 +1,3 @@
 # nordicdev.studio
 
-Nordic Development homepage
-# open source :)
+The open source code of Nordic Development's home page
