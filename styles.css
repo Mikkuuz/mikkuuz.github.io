@@ -6,7 +6,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: rgba(255, 255, 255, 0); /* Black */
+    background-color: rgb(255, 255, 255); /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 0px;
     border-right: 3px solid #143C72;
@@ -43,6 +43,7 @@ html {
 body {
   height: 100%;
   margin: 0;
+  background:	radial-gradient(#CECECE, #fff);
 }
 
 h1 {
@@ -75,13 +76,8 @@ p {
 section {
   padding-top: 60em;
   margin: 0px;
-  background-color: #ffffff;
+  background: transparent;
 }
-
-.home, .sel:nth-child(2) { background:rgb(255, 255, 255) ; }
-.about, .sel:nth-child(3) { background:rgb(255, 255, 255); }
-.services, .sel:nth-child(4) { background:rgb(255, 255, 255); }
-.contact, .sel:nth-child(5) { background:rgb(255, 255, 255) ; }
 
 a {
   color: black;
@@ -113,4 +109,7 @@ a:active {
   background-color: rgb(255, 255, 255);
   color: #143C72;
   text-align: center;
+  border-top: 3px solid #143C72;
+  border-top-right-radius: 25%;
+  border-top-left-radius: 25%;
 }
