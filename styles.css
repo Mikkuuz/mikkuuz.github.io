@@ -35,9 +35,10 @@
     .sidenav a {font-size: 18px;}
   }
 
-html {
-    overflow-y: hidden;
+html, body {
+    overflow: hidden;
     scroll-behavior: smooth;
+    position: relative;
 }
 
 body {
